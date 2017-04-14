@@ -6,7 +6,7 @@ using Android.Graphics.Drawables;
 
 namespace AU
 {
-    [Activity(Label = "AU", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "АртУльтра", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         EditText name, phone, date;
