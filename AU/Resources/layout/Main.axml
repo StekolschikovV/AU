@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#eccb96"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25px"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/linearLayout1">
+  <TextView
+      android:text="Приложение для быстрого заказа обратно звонка. Если у вас есть фото желаемой конструкции, прикрепите его перед отправкой. После закза с Вами свжиться менеджер в течении 24 часов."
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView1"
+      android:textSize="15sp"
+      android:layout_marginBottom="20sp"
+      android:textColor="#380b00"
+      android:textColorHint="#380b00" />
+  <EditText
+      android:inputType="textPersonName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/editTextName"
+      android:hint="Ваше имя"
+      android:layout_marginBottom="20sp"
+      android:textColor="#380b00"
+      android:textColorHint="#380b00" />
+  <EditText
+      android:inputType="phone"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/editTextPhone"
+      android:hint="Ваш телефон"
+      android:layout_marginBottom="20sp"
+      android:textColorHint="#380b00"
+      android:textColor="#380b00" />
+  <EditText
+      android:inputType="date"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/editTextDate"
+      android:hint="Желаемая дата звонка"
+      android:layout_marginBottom="20sp"
+      android:textColor="#380b00"
+      android:textColorHint="#380b00" />
+  <Button
+      android:id="@+id/myButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Выбрать фото"
+      android:layout_marginBottom="20sp"
+      android:background="#981b07"
+      android:paddingLeft="10sp"
+      android:paddingRight="10sp" />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dip"
+      android:layout_weight="1"
+      android:gravity="center|bottom"
+      android:orientation="vertical">
+    <Button
+        android:text="Заказать звонок"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonColl"
+        android:background="#981b07" />
+  </LinearLayout>
+</LinearLayout>
