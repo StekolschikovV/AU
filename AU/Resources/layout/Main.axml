@@ -9,7 +9,7 @@
     android:minHeight="25px"
     android:id="@+id/linearLayout1">
     <TextView
-        android:text="Приложение для быстрого заказа обратно звонка. Если у вас есть фото желаемой конструкции, прикрепите его перед отправкой. После закза с Вами свжиться менеджер в течении 24 часов."
+        android:text="Приложение для быстрого заказа обратно звонка. Если у вас есть фото желаемой конструкции, прикрепите его перед отправкой. После заказа с Вами свжиться менеджер в течении 24 часов."
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
